@@ -1,5 +1,25 @@
 .App {
+  width: 80vw;
+}
+
+.tab-base {
+  width: 100px;
+  height: 50px;
+  border: 1.5px solid black;
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: top;
   text-align: center;
+}
+
+.selected {
+  background-color: black;
+  color: white;
+}
+
+textarea {
+  font-size: 20px;
+  display: none;
 }
 
 .App-logo {
